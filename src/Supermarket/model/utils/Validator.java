@@ -1,6 +1,4 @@
-package project.model.utils;
-
-import project.controller.exception.ValidationException;
+package Supermarket.model.utils;
 
 import java.util.regex.Pattern;
 
@@ -14,11 +12,11 @@ public class Validator {
         return validator;
     }
 
-    public String nameValidator(String name, String message) throws ValidationException {
-        if (Pattern.matches("", name)){
-            return name;
-        }else{
-            throw new ValidationException(message);
-        }
-    }
+//    public String nameValidator(String name, String message) throws ValidationException {
+//        if (Pattern.matches("", name)){
+//            return name;
+//        }else{
+//            throw new ValidationException(message);
+//        }
+//    }
 }
